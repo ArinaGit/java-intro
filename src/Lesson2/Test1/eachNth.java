@@ -1,8 +1,8 @@
-package Test3;
+package Test1;
 
 public class eachNth {
 
-    public static void eachNth(String st, int m) {
+    eachNth(String st, int m) {
         char[] stArray = st.toCharArray ( );
         int len = st.length ( );
         int i = 0;

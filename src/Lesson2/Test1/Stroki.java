@@ -1,6 +1,6 @@
-package Test1;
+package src.Lesson2.Test1;
 
-public class eachNth {
+public class Stroki {
 
     eachNth(String st, int m) {
         char[] stArray = st.toCharArray ( );

@@ -1,4 +1,4 @@
-package Test3;
+package src.lesson02;
 
 public class Fibonacci {
     public static void printFibonacciNumbers (int n) {
@@ -13,4 +13,9 @@ public class Fibonacci {
         }
         System.out.println ( );
     }
+
+    public static void main(String[] args) {
+        //Ex1
+        Fibonacci fibo = new Fibonacci ();
+        fibo.printFibonacciNumbers (6);}
 }

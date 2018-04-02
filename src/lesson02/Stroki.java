@@ -1,8 +1,8 @@
-package src.Lesson2.Test1;
+package src.lesson02;
 
 public class Stroki {
 
-    eachNth(String st, int m) {
+   static void eachNth(String st, int m) {
         char[] stArray = st.toCharArray ( );
         int len = st.length ( );
         int i = 0;
@@ -14,5 +14,13 @@ public class Stroki {
 
         System.out.println ( );
 
+    }
+
+    public static void main(String[] args) {
+        //Ex2
+
+        eachNth ("String", 2);
+        eachNth ("abcdefg", 2);
+        eachNth ("abcdefg", 3);
     }
 }

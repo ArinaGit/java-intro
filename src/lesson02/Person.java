@@ -1,4 +1,4 @@
-package lesson02;
+package src.lesson02;
 
 public class Person {
     String firstName;
